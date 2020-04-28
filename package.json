@@ -1,0 +1,15 @@
+{
+  "name": "begin-app",
+  "version": "0.0.0",
+  "description": "A Begin app with the minimum necessary file structure",
+  "scripts": {
+    "test": "QUIET=1 tape test/*-test.js | tap-spec",
+    "start": "sandbox"
+  },
+  "dependencies": {
+    "@architect/sandbox": "latest",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.0",
+    "tiny-json-http": "^7.1.2"
+  }
+}
